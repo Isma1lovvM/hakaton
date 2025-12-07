@@ -6,22 +6,27 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="container">
-        <nav className="navbar">
+      {/* <header className="navbar"> */}
+        <div className="container navContainer">
+          <NavLink to={"/"}>
+            <img className="logo" src={logo} alt="logo" />
+          </NavLink>
+
           <ul className="navList">
-            <NavLink to={"/"}>
-              <img className="logo" src={logo} alt="" />
-            </NavLink>
-            <NavLink to={"/shop"}>
-              <li className="shop">
-                <p>Shop</p>
-              </li>
-            </NavLink>
-            <li className="about">About</li>
-            <li className="contacts">Contact</li>
+            <li>
+              <NavLink to={"/shop"} className="navItem">
+                Shop
+              </NavLink>
+            </li>
+            <li>
+              <a className="navItem">About</a>
+            </li>
+            <li>
+              <a className="navItem">Contact</a>
+            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      {/* </header> */}
     </>
   );
 }
