@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
-      {/* <header className="navbar"> */}
+      <header className="navbar">
         <div className="container navContainer">
           <NavLink to={"/"}>
             <img className="logo" src={logo} alt="logo" />
@@ -26,7 +26,7 @@ function Header() {
             </li>
           </ul>
         </div>
-      {/* </header> */}
+      </header>
     </>
   );
 }

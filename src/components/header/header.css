@@ -4,15 +4,14 @@
 }
 
 .navbar {
-<<<<<<< HEAD
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 12px 0;
-  background-color: rgb(226, 215, 215);
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
   z-index: 100;
 }
 
@@ -26,16 +25,10 @@
   width: 80px;
   cursor: pointer;
   transition: 0.2s ease;
-=======
-    width: 100%;
-    padding: 10px;
-    background-color: red;
-    border-radius: 20px;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
->>>>>>> 98434d419485be8458f9d28d5863eb4095f47dff
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .navList {
@@ -74,10 +67,26 @@
   color: #000;
 }
 
+/* ACTIVE link style */
 .navItem.active {
   font-weight: 600;
 }
 
 .navItem.active::after {
   width: 100%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .navList {
+      gap: 20px;
+  }
+
+  .logo {
+      width: 65px;
+  }
+
+  .navItem {
+      font-size: 16px;
+  }
 }
