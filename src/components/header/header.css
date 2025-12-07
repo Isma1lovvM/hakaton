@@ -4,6 +4,7 @@
 }
 
 .navbar {
+<<<<<<< HEAD
   position: fixed;
   top: 0;
   left: 0;
@@ -25,6 +26,16 @@
   width: 80px;
   cursor: pointer;
   transition: 0.2s ease;
+=======
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+>>>>>>> 98434d419485be8458f9d28d5863eb4095f47dff
 }
 
 .navList {
