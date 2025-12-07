@@ -1,0 +1,19 @@
+.logo {
+    width: 80px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
