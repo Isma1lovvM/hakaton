@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import HomeSwiper from "../../components/homeSwiper/HomeSwiper";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <main>
+        <HomeSwiper />
+      </main>
+    </>
+  );
 }
 
-export default Home
+export default Home;
