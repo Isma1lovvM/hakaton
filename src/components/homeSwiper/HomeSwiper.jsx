@@ -6,11 +6,11 @@ import "swiper/css/navigation";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/pagination";
 
-import swiperImg from "../../assets/swiper.svg";
-import swiperImg2 from "../../assets/soft.png";
-import swiperImg3 from "../../assets/divan.jpg";
+import swiperImg from "../../../public/swiperImg.jpg";
+import swiperImg2 from "../../../public/swiperImg2.jpg";
+import swiperImg3 from "../../../public/swiperImg3.jpg";
 import swiperBtn from "../../assets/button.svg";
-import swiperBtn2 from "../../assets/button2.svg";
+import swiperBtn2 from "../../assets/button2.svg"; 
 
 function HomeSwiper() {
   return (
